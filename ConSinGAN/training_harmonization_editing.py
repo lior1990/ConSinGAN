@@ -90,7 +90,7 @@ def train_single_scale(netD, netG, reals, img_to_augment, naive_img, naive_img_l
                        fixed_noise, noise_amp, opt, depth, writer):
     reals_shapes = [real.shape for real in reals]
     real = reals[depth]
-    aug = functions.Augment()
+    #aug = functions.Augment()
 
     alpha = opt.alpha
 

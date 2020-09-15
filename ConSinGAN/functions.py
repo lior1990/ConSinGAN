@@ -12,8 +12,8 @@ import random
 import datetime
 import dateutil.tz
 import copy
-from albumentations import HueSaturationValue, IAAAdditiveGaussianNoise, GaussNoise, OneOf,\
-    Compose, MultiplicativeNoise, ToSepia, ChannelDropout, ChannelShuffle, Cutout, InvertImg
+# from albumentations import HueSaturationValue, IAAAdditiveGaussianNoise, GaussNoise, OneOf,\
+#     Compose, MultiplicativeNoise, ToSepia, ChannelDropout, ChannelShuffle, Cutout, InvertImg
 
 from ConSinGAN.imresize import imresize, imresize_in, imresize_to_shape
 
